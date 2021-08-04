@@ -84,6 +84,40 @@
             }
           ],
           "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": ["right_control"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "en"
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": ["right_control"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "input_mode_id": "com.apple.inputmethod.Japanese"
+              }
+            }
+          ],
+          "type": "basic"
         }
       ]
     },
